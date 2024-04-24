@@ -2,6 +2,10 @@
 #include <chrono>
 using namespace std;
 
+// openmp: it is api which provids set of direcctives and EVs which enables parallel programming.
+// #pragma omp parallel for shared(arr, swapped): This directive parallelizes the inner loop. It distributes the iterations of the loop among the available threads, allowing multiple threads to execute the loop iterations concurrently. The shared(arr, swapped) clause indicates that the arr and swapped variables are shared among all threads.
+// : This pragma ensures that only one thread at a time executes the code within the critical section.
+
 void swap(int &x, int &y)
 {
     int temp = x;

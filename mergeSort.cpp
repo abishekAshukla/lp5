@@ -3,6 +3,9 @@
 #include <chrono>
 using namespace std;
 
+// #pragma omp parallel sections: sections within the block will be executed parallely
+// #pragma omp section: defines  asection to be executed by a thread
+
 void merge(int *arr, int left, int mid, int right)
 {
     int n1 = mid - left + 1;
