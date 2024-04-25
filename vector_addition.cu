@@ -73,3 +73,11 @@ int main() {
 
     return 0;
 }
+
+// host memeory: Host memory refers to the memory that is accessible by the CPU (host).
+// device memory: Host memory refers to the memory that is accessible by the GPU or device
+// threads: Threads are the smallest unit of execution in CUDA. Each thread executes a portion of the overall task independently.
+// Threads are organized into groups called blocks that can execute concurrently on multiprocessors.
+// nvcc plugin allows to compile and execute CUDA code directly within the notebook. 
+// CUDA, which stands for Compute Unified Device Architecture, is a parallel computing platform and programming model developed by NVIDIA. It allows developers to use NVIDIA GPUs (Graphics Processing Units) for general-purpose processing, typically to accelerate computations that can be parallelized.
+// it supports c, c++ and fortran
